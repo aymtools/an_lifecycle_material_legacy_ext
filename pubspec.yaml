@@ -1,0 +1,31 @@
+name: an_lifecycle_material_legacy_ext
+description: "Legacy Material support extension for anlifecycle and remember, providing LifecycleTabBarView and rememberTabController."
+version: 1.0.0
+homepage: https://github.com/aymtools/an_lifecycle_material_legacy_ext/
+issue_tracker: https://github.com/aymtools/an_lifecycle_material_legacy_ext/issues
+
+environment:
+  sdk: '>=2.17.0 <4.0.0'
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cancellable: ^2.6.0
+  anlifecycle: ^3.8.0
+  an_lifecycle_cancellable: ^2.6.1
+  remember: ^2.8.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  test: ^1.5.1
+
+  flutter_lints: any
+
+flutter:
+
+dependency_overrides:
+  anlifecycle:
+    path: ../lifecycle

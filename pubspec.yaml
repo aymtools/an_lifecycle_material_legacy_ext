@@ -1,6 +1,6 @@
 name: an_lifecycle_material_legacy_ext
 description: "Legacy Material support extension for anlifecycle and remember, providing LifecycleTabBarView and rememberTabController."
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/aymtools/an_lifecycle_material_legacy_ext/
 issue_tracker: https://github.com/aymtools/an_lifecycle_material_legacy_ext/issues
 

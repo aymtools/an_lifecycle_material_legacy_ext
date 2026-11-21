@@ -9,7 +9,8 @@ import 'package:cancellable/cancellable.dart';
 import 'package:flutter/material.dart';
 import 'package:remember/remember.dart' show RememberChangeNotifierExt;
 
-extension RememberMaterialSupportsExt on BuildContext {
+/// TabController 扩展
+extension RememberTabControllerExt on BuildContext {
   /// 快速生成一个可重用的 TabController
   /// * 调用顺序,[key],[initialIndex],[animationDuration],[length] 确定是否为同一个对象 如果发生了变化则重新创建
   /// * [initialIndex] 初始索引
